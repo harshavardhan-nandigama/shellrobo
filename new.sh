@@ -2,8 +2,7 @@
 
 # Define variables
 AMI_ID="ami-09c813fb71547fc4f"                  # e.g., ami-0abcdef1234567890
-INSTANCE_TYPE="t2.micro"
-KEY_NAME=""              # e.g., my-key-pair
+INSTANCE_TYPE="t2.micro"          # e.g., my-key-pair
 SECURITY_GROUP_ID="sg-052b2eb75308383d4"  # e.g., sg-0123456789abcdef0
 SUBNET_ID="subnet-0f73a6b273a171a27"      # e.g., subnet-0abcdef1234567890
 HOSTED_ZONE_ID="Z07069691890X06YTPXD4" # e.g., Z0123456ABCDEFGH
