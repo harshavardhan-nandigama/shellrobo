@@ -8,7 +8,7 @@ DOMAIN_NAME="harshavn24.site"
 
 for instances in ${(INSTANCES[@])}
 do 
-    INSTANCE_ID=$b (aws ec2 run-instances --image-id ami-09c813fb71547fc4f --instance-type t2.
+    INSTANCE_ID=$(aws ec2 run-instances --image-id ami-09c813fb71547fc4f --instance-type t2.
     micro --security-group-ids sg-052b2eb75308383d4 --tag-specifications
     "ResourceType=instance,Tags=[{key=Name, Value=$instance}]" --query Instances[0].
     InstanceId" --output text)
